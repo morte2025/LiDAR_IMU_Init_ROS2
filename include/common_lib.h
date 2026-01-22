@@ -53,7 +53,8 @@ const V3D Zero3d(0, 0, 0);
 // Vector3d Lidar_offset_to_IMU(0.05512, 0.02226, -0.0297); // Horizon
 // Vector3d Lidar_offset_to_IMU(0.04165, 0.02326, -0.0284); // Avia
 
-enum LID_TYPE{AIRY = 1, ZEDX, AVIA, VELO, OUSTER, L515, PANDAR, ROBOSENSE}; //{1, 2, 3}
+enum LID_TYPE{AVIA = 1, VELO, OUSTER, PANDAR, ROBOSENSE, L515, AIRY, ZEDX};
+
 struct MeasureGroup     // Lidar data and imu dates for the curent process
 {
     MeasureGroup()

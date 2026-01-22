@@ -5,7 +5,7 @@ laser_mapping:
         imu_topic:  "/imu"
 
     preprocess:
-        lidar_type: 5                # Hesai PandarXT
+        lidar_type: 4                # Hesai PandarXT
         scan_line: 32
         blind: 3.0
         feature_extract_en: false
